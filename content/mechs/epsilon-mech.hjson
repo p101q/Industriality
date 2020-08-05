@@ -1,0 +1,41 @@
+name: Epsilon
+description: Large arachnid fur equipped with two heavy machine guns. It is also equipped with a capacious storage and a powerful drill, which makes it a good fur miner.
+speed: 0.2
+boostSpeed: 0.6
+egnineColor: 6495ed
+shake: 0.1
+flying: false
+health: 975
+rotatespeed: 0.003
+baseRotateSpeed: 0.003
+engineSize: 10
+engineOffset: 15
+engineColor: ffa07a
+itemCapacity: 120
+drillPower: 4
+mineSpeed: 4
+hitsize: 23
+weapon: {
+	name: gun
+	length: 3
+	shootSound: shootBig
+	reload: 6
+	alternate: false
+	range: 300
+	ignoreRotation: false
+	width: 11
+	recoil: 2
+	inaccuracy: 5
+	ejectEffect: reactorsmoke
+	ammoUseEffect: shellEjectBig
+	bullet: {
+	  type: BasicBulletType
+	  bulletSprite: turrets-speedy-bullet
+	  shootSound: shootBig
+	  damage: 13
+      lifeTime: 60
+      speed: 8
+      bulletWidth: 25
+      bulletHeight: 25
+	}
+}

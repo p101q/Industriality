@@ -1,0 +1,47 @@
+//type: NuclearReactor
+name: Ядерный Реактор
+description: "Очень эффективный ядерный реактор, который преобразует тепло из топливных стержней в энергию. Охлаждение хладагентом необходимо для предотвращения чрезмерного нагрева деталей. [crimson]Дашь ему взорваться - ПОТЕРЯЕШЬ ПОЛОВИНУ ТОГО, ЧТО ТЫ СТРОИЛ НА ПРОТЯЖЕНИИ ЭТИХ ЧАСОВ"
+itemCapacity: 35
+liquidCapacity: 275
+health: 3475
+size: 5
+itemDuration: 120
+//buildVisibility: sandboxOnly
+baseExplosiveness: 500
+heating: 0.01
+explosionRadius: 80
+explosionDamage: 459300
+smokeThreshold: 0.5
+flashThreshold: 0.05
+layer: power
+buildCostMultiplier: 1
+powerProduction: 583.33333333333333333333333
+consumes: {
+  items: {
+    items: [
+      fuel-rod/4
+    ]
+  }
+  liquid: {
+    liquid: refrigerant
+    amount: 6
+  }
+}
+requirements: [
+  iron/1200
+  iridium/560
+  iridimond-ingot/750
+  diamond/590
+  titanium/1200
+  thorium/565
+  silicon/650
+  graphite/395
+  surge-alloy/735
+  metaglass/790
+]
+category: power
+research: thorium-reactor
+activeSound: thruster
+activeSoundVolume: 5
+idleSound: respawning
+idleSoundVolume: 5

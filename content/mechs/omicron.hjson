@@ -1,0 +1,36 @@
+name: Omicron
+description: Средний мех поддержки. Может быстро лечить постройки выстрелами. Очень хорош в строительстве.
+speed: 0.5
+boostSpeed: 1
+egnineColor: 6495ed
+shake: 0.1
+flying: false
+health: 315
+rotatespeed: 0.05
+baseRotateSpeed: 0.05
+engineSize: 3
+engineOffset: 8
+engineColor: 84f491
+itemCapacity: 120
+drillPower: 2
+mineSpeed: 6
+buildPower: 3.5
+canHeal: true
+hitsize: 17
+weapon: {
+	name: omicron-weapon
+	reload: 6
+	width: 11.2
+	height: -2
+	recoil: 3
+	inaccuracy: 2
+	bullet: {
+	  type: HealBulletType
+	  damage: 10
+	  healPercent: 2
+      lifetime: 120
+      speed: 4
+      bulletWidth: 12
+      bulletHeight: 12
+	}
+}

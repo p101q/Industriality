@@ -1,0 +1,10 @@
+name: Iridium Wall
+description: Very strong wall
+type: Wall
+health: 1420
+size: 1
+requirements: [
+  iridium/12
+]
+category: defense
+research: surge-wall-large

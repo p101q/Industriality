@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Diamond Compressor
+description: It Сompress the coal molecules so hard that it produces a diamond. Requires a lot of energy
+health: 740
+outputItem: diamond/1
+size: 3
+hasPower: true
+hasItems: true
+flameColor: 00ffff
+craftTime: 150
+updateEffect: smeltsmoke
+consumes: {
+  power: 15
+  items: {
+    items: [
+      coal/10
+    ]
+  }
+}
+requirements: [
+  lead/150
+  silicon/150
+  graphite/100
+  iridium/50
+  iron/250
+  plastanium/70
+]
+category: crafting
+research: multi-press
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

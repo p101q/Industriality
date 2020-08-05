@@ -1,0 +1,7 @@
+name: Distilled Water
+description: Water without impurities. You can call it "dead water", since there are no living organisms in it
+temperature: 0.5
+viscosity: 0.3
+effect: wet
+heatCapacity: 0.6
+color: 1e90ff

@@ -1,0 +1,13 @@
+type: Conveyor
+name: Iridium Conveyor
+description: Very fast and strong, but expensive conveyor. For those who are REALLY rich
+health: 340
+requirements: [
+  titanium/3
+  metaglass/3
+  graphite/3
+  iridium/3
+]
+category: distribution
+speed: 0.24
+research: titanium-conveyor

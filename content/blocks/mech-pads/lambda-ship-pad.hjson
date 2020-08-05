@@ -1,0 +1,25 @@
+name: Lambda Ship Pad
+description: Transform into Lambda rocket ship
+health: 2580
+type: MechPad
+mech: lambda
+size: 5
+consumes: {
+  power: 14
+  items: {
+	items: [
+	  iridimond-ingot/10
+	]
+  }
+}
+category: upgrade
+research: epsilon-mech-pad
+requirements: [
+  silicon/650
+  iron/755
+  titanium/675
+  iridium/565
+  diamond/375
+  graphite/755
+  iridimond-ingot/375
+]

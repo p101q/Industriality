@@ -1,0 +1,38 @@
+//type: GenericSmelter
+name: Молекулярный Преобразователь
+description: Созданный на основе Импульсного Реактора - Молекулярный Преобразователь: переделывает молекулы железа в иридий. Требует много криогенной жидкости для охлаждения. Так же необходимо большое количество энергии
+health: 1745
+liquidCapacity: 50
+outputItem: iridium/1
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+flameColor: 00ffff
+craftTime: 150
+updateEffect: smeltsmoke
+consumes: {
+  power: 50
+  items: {
+    items: [
+      iron/4
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+  }
+}
+requirements: [
+  lead/90
+  copper/100
+  silicon/150
+  graphite/250
+  iron/250
+]
+category: crafting
+research: impact-reactor
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

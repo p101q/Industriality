@@ -1,0 +1,37 @@
+type: GenericSmelter
+name: "Iron Smelter"
+description: "Smelts iron ingots from iron ore. Use slag for smelting"
+health: 235
+liquidCapacity: 50
+outputItem: iron/1
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+flameColor: ffa07a
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.8
+  items: {
+    items: [
+      iron-ore/2
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.2
+  }
+}
+requirements: [
+  lead/25
+  copper/70
+  silicon/90
+  graphite/75
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

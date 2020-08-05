@@ -1,0 +1,53 @@
+type: ItemTurret
+name: Fire
+description: "A large turret equipped with long-range flamethrower. Enemies will be horrified to seen her)"
+health: 3475
+targetAir: false
+size: 4
+reload: 3
+range: 230
+ammoUseEffect: shellEjectBig
+inaccuracy: 3
+rotatespeed: 2
+recoil: 3
+shootEffect: shootPyraFlame
+shootSound: fire
+coolantMultiplier: 1.9
+ammo: {
+  pyratite: {
+    speed: 5
+    lifetime: 55
+    damage: 55
+    bulletWidth: 105
+    bulletHeight: 105
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    bulletSprite: turrets-speedy-bullet
+    type: ArtilleryBulletType
+    trailEffect: burning
+    status: burning
+    collides: true
+    collidesTiles: true
+    collidesAir: false
+    hitSound: fire
+    color: ff8c00
+  }
+}
+consumes: {
+  liquid: {
+    liquid: slag
+    amount: 1
+    optional: true
+    booster: true
+  }
+}
+requirements: [
+  titanium/345
+  silicon/400
+  iron/475
+  iridium/375
+  surge-alloy/175
+]
+buildCostMultuplier: 1.9
+category: turret
+research: cyclone

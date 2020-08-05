@@ -1,0 +1,14 @@
+name: Iridium Bridge Conveyor
+description: A cooler version of a conventional bridge conveyor. Can stretch the bridge 3 times farther.
+type: ItemBridge
+range: 9
+transportTime: 0.5
+itemCapacity: 20
+hasPower: false
+requirements: [
+  iridium/25
+  copper/ 75
+  lead/45
+]
+
+buildCostMultiplier: 2.3

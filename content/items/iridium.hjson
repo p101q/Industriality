@@ -1,0 +1,6 @@
+type: material
+name: Iridium
+description: A rare resource.
+hardness: 4
+cost: 1
+color: dcdcdc

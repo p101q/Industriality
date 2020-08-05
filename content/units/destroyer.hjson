@@ -1,0 +1,15 @@
+name: "Уничтожитель"
+description: ""
+maxVelocity: 0.4
+speed: 0.2
+flying: false
+health: 350000
+engineOffset: 56
+rotatespeed: 0.02
+baseRotateSpeed: 0.02
+engineSize: 10
+mass: 40
+hitSize: 55
+hitsize: 55
+targetAir: false
+rotateWeapon: false

@@ -1,0 +1,45 @@
+name: Corruptor
+type: GroundUnit
+maxVelocity: 0.3
+speed: 0.1
+flying: false
+health: 11000
+engineOffset: 56
+rotatespeed: 0.07
+baseRotateSpeed: 0.07
+engineSize: 10
+mass: 10
+hitSize: 25
+hitsize: 25
+rotateweapon: true
+weapon: {
+	name: corruptor-weapon
+	reload: 2
+	range: 340
+	width: -16
+	ignoreRotation: true
+	recoil: 3
+	inaccuracy: 4
+	ejectEffect: hitMeltdown
+	ammoUseEffect: shellEjectBig
+	shootEffect: shootPyraFlame
+	shootSound: fire
+	bullet: {
+    	speed: 5
+    	lifetime: 55
+    	damage: 50
+    	bulletWidth: 105
+    	bulletHeight: 105
+    	shootEffect: shootBig
+    	smokeEffect: shootBigSmoke
+    	bulletSprite: turrets-speedy-bullet
+    	type: ArtilleryBulletType
+    	trailEffect: burning
+    	status: burning
+    	collides: true
+    	collidesTiles: true
+    	collidesAir: true
+    	hitSound: fire
+    	color: ff8c00
+	}
+}

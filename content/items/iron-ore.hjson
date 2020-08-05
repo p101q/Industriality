@@ -1,0 +1,5 @@
+name: iron-ore
+description: Can be used to make iron ingots.
+type: resource
+hardness: 2
+color: ffdab9

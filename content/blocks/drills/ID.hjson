@@ -1,0 +1,24 @@
+name: Irondium Drill
+description: The drill created on the basis of iridium and iron, whose combination not only gives high strength, but also efficiency. Due to this efficiency, the drill extracts many times more resources than its prototype - Airblast drill
+health: 865
+type: Drill
+size: 4
+tier: 6
+drillTime: 175
+consumes: {
+  power: 4
+  liquid: {
+    liquid: cryofluid
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  iridium/80
+  silicon/100
+  graphite/60
+  iron/200
+]
+category: production
+research: blast-drill

@@ -1,0 +1,9 @@
+name: Fuel Rod
+description: Nuclear fuel rod
+type: resource
+hardness: 4
+cost: 2
+color: 696969
+radioactivity: 3
+explosiveness: 0.6
+flammability: 0.7

@@ -1,0 +1,27 @@
+name: Varan Factory
+description: Produces medium-sized ground units units equipped with 1 "Ripple" cannon
+health: 830
+type: UnitFactory
+unitType: varan
+size: 3
+maxSpawn: 2
+produceTime: 3500
+consumes: {
+	power: 3.5
+	items: {
+	  items: [
+	    iridium/35
+	    titanium/65
+	    graphite/75
+	  ]
+	}
+}
+category: units
+research: valkyrie-factory
+requirements: [
+  iridium/250
+  titanium/325
+  graphite/275
+  silicon/195
+]
+buildCostMultiplier: 1.6

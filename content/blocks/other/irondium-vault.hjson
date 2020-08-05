@@ -1,0 +1,14 @@
+name: Irondium Vault
+description: Due to the strength of the combination of iridium with iron, the vault, made from such a combination can compress a lot more resources before his the "explosion"
+type: Vault
+itemCapacity: 5000
+hasItems: true
+health: 3450
+size: 3
+requirements: [
+  iridium/250
+  titanium/500
+  iron/500
+]
+category: effect
+research: vault

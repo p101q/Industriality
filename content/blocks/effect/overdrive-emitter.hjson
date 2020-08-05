@@ -1,0 +1,30 @@
+//type: OverdriveProjector
+name: "Сверхприводный излучатель"
+description: "Улучшенная версия сверхприводного проектора. Ускоряет действие всех блоков в определённом радиусе действия (эффект может быть усилен кремнием с фазовой тканью)"
+size: 3
+health: 560
+reload: 30
+range: 128
+speedBoost: 1.75
+speedBoostPhase:  1.25
+useTime: 320
+phaseRangeBoost: 32
+consumes: {
+	power: 6
+	items: {
+		items: [
+			silicon/1
+			phase-fabric/1
+		]
+		booster: true
+		optional: true
+	}
+}
+requirements: [
+	silicon/80
+	graphite/100
+	plastanium/75
+	titanium/50
+	phase-fabric/45
+]
+category: effect

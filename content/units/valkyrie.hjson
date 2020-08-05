@@ -1,0 +1,27 @@
+type: FlyingUnit
+name: Valkyrie
+description: "A flying drone, designed on the basis of the Ghoul and equipped with two high-voltage electric guns. Andrey Stepanenko: Such-ka"
+rotatespeed: 0.05
+maxVelocity: 0.7
+speed: 0.2
+flying: true
+health: 325
+engineOffset: 9
+range: 300
+engineSize: 3
+mass: 23
+hitSize: 23
+rotateWeapon: false
+weapon: {
+	name: valkyrie-weapon
+	shootSound: spark
+	reload: 15
+	alternate: false
+	range: 300
+	ignoreRotation: false
+	recoil: 2
+	inaccuracy: 5
+	ejectEffect: reactorsmoke
+	bullet: lightning
+	width: -7
+}

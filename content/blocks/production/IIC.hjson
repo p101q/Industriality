@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: "Iridimond Ingots Compressor"
+description: "Compresses iridium and diamond into ingots"
+health: 1095
+liquidCapacity: 50
+outputItem: iridimond-ingot/1
+size: 4
+hasPower: true
+hasItems: true
+flameColor: e0ffff
+craftTime: 350
+updateEffect: smeltsmoke
+consumes: {
+  power: 25
+  items: {
+    items: [
+    iridium/4
+    diamond/2
+    ]
+  }
+}
+requirements: [
+  plastanium/100
+  silicon/75
+  graphite/125
+  iron/135
+  iridium/75
+  diamond/100
+]
+category: crafting
+research: diamond-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

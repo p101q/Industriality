@@ -1,0 +1,56 @@
+type: ItemTurret
+name: Railgun
+description: Powerful turret shooting item clusters on medium range.
+health: 1540
+size: 3
+reload: 60
+range: 180
+ammoUseEffect: shellEjectBig
+inaccuracy: 3
+rotatespeed: 1
+recoil: 7
+shootSound: corexplode
+coolantMultiplier: 2
+ammo: {
+  iron: {
+    speed: 7
+    damage: 100
+    bulletWidth: 35
+    bulletHeight: 35
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+    shootSound: corexplode
+    bulletSprite: turrets-sphere-bullet
+    type: FlakBulletType
+  }
+    iridium: {
+    speed: 8
+    damage: 175
+    bulletWidth: 40
+    bulletHeight: 40
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+    shootSound: corexplode
+    bulletSprite: turrets-sphere-bullet
+    type: FlakBulletType
+  }
+}
+consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+    booster: true
+    optional: false
+  }
+}
+requirements: [
+  plastanium/120
+  titanium/75
+  silicon/200
+  iron/250
+  iridium/125
+]
+category: turret
+research: spectre

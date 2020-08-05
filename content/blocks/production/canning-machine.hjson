@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: "Canning Machine"
+description: "Compresses thorium and uranium into an empty metal rod to produce a fuel rod. Consumes iron to make empty fuel rods."
+health: 675
+itemCapacity: 30
+outputItem: fuel-rod/1
+size: 3
+hasPower: true
+hasItems: true
+flameColor: 808080
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 9
+  items: {
+    items: [
+    thorium/3
+    uranium/7
+    iron/4
+    ]
+  }
+}
+requirements: [
+  thorium/100
+  iridimond-ingot/50
+  graphite/80
+  iron/100
+  iridium/25
+  diamond/25
+]
+category: crafting
+research: diamond-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

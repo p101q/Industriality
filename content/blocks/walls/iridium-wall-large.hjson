@@ -1,0 +1,10 @@
+name: Large Iridium Wall
+description: Very VERY strong wall
+type: Wall
+health: 5680
+size: 2
+requirements: [
+  iridium/48
+]
+category: defense
+research: iridium-wall

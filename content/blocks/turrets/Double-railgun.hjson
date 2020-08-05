@@ -1,0 +1,49 @@
+type: DoubleTurret
+name: Double Railgun
+description: Very powerful upgrade of Railgun
+health: 3575
+size: 4
+reload: 30
+range: 325
+shots: 2
+ammoUseEffect: shellEjectBig
+inaccuracy: 4
+rotatespeed: 2
+recoil: 11
+shootSound: corexplode
+coolantMultiplier: 0.7
+ammo: {
+  iridium: {
+    speed: 8
+    damage: 245
+    bulletWidth: 35
+    bulletHeight: 35
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+    shootSound: corexplode
+    bulletSprite: turrets-sphere-bullet
+    type: FlakBulletType
+    color: ffffff
+  }
+}
+consumes: {
+  liquid: {
+    liquid: refrigerant
+    amount: 1.4
+    optional: false
+    booster: true
+  }
+}
+requirements: [
+  titanium/200
+  silicon/200
+  diamond/125
+  iron/300
+  plastanium/175
+  iridium/250
+  iridimond-ingot/175
+]
+category: turret
+research: railgun
+buildCostMultiplier: 1.7

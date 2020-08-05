@@ -1,0 +1,26 @@
+name: Epsilon Mech Pad
+description: Transform into Epsilon Mech
+health: 1280
+type: MechPad
+mech: epsilon-mech
+size: 3
+consumes: {
+  power: 5
+  items: {
+	items: [
+	  uranium/7
+	]
+  }
+}
+category: upgrade
+research: omega-mech-pad
+requirements: [
+  thorium/190
+  silicon/220
+  iron/350
+  titanium/500
+  iridium/375
+  diamond/175
+  graphite/325
+]
+buildCostMultiplier: 1.7

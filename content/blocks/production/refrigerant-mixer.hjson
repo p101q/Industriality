@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: "Refrigerant Mixer"
+description: "Mixes distilled water with titanium to produce refrigerant"
+health: 455
+liquidCapacity: 50
+outputLiquid: {
+  liquid: refrigerant
+  amount: 12
+}
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 3
+  items: {
+    items: [
+      titanium/3
+    ]
+  }
+  liquid: {
+    liquid: distilled-water
+    amount: 3.6
+  }
+}
+requirements: [
+  iridium/30
+  iron/75
+  silicon/60
+  graphite/90
+  titanium/100
+]
+category: crafting
+research: cryofluidmixer
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

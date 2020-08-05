@@ -1,0 +1,6 @@
+type: material
+name: Iron
+description: Just familiar to all the iron
+hardness: 2
+cost: 2
+color: a9a9a9

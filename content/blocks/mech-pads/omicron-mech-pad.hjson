@@ -1,0 +1,20 @@
+name: Реконструктор Меха "Омикрон"
+description: Трансформирует вас в меха поддержки "Омикрона"
+health: 780
+type: MechPad
+mech: omicron
+size: 3
+consumes: {
+  power: 10
+}
+category: upgrade
+research: epsilon-mech-pad
+requirements: [
+  silicon/340
+  iron/375
+  titanium/625
+  iridium/375
+  plastanium/325
+  graphite/340
+]
+buildCostMultiplier: 1.5

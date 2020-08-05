@@ -1,0 +1,22 @@
+size: 3
+update: true
+solid: true
+hasItems: true
+configurable: true
+localizedName: "Bomb"
+baseExplosiveness: 35
+description: "You know, what she did"
+category: turret
+requirements: [
+  graphite/100,
+  titanium/150,
+  thorium/90,
+  metaglass/30,
+]
+consumes: {
+  items: {
+    items: [
+      blast-compound/4
+    ]
+  }
+}

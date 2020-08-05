@@ -1,0 +1,40 @@
+name: Varan
+description: Medium artillery mech equipped with 1 upgraded "Ripple" in the middle
+type: GroundUnit
+maxVelocity: 0.3
+speed: 0.2
+flying: false
+health: 395
+engineOffset: 4
+engineSize: 10
+mass: 5
+hitsize: 6
+rotateWeapon: false
+weapon: {
+	name: varan-weapon
+	length: 0
+	shootSound: artillery
+	reload: 60
+	alternate: false
+	range: 650
+	ignoreRotation: false
+	width: 0
+	recoil: 4
+	inaccuracy: 5
+	shots: 2
+	ejectEffect: ripple
+	ammoUseEffect: shellEjectBig
+	bullet: {
+	  type: ArtilleryBulletType
+	  collidesAir: true
+	  collides: true
+	  collidesTiles: true
+	  bulletSprite: turrets-sphere-bullet
+	  shootSound: corexplode
+	  damage: 45
+      lifeTime: 240
+      speed: 7
+      bulletWidth: 30
+      bulletHeight: 30
+	}
+}

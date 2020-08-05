@@ -1,0 +1,16 @@
+//type: SolarGenerator
+name: Ветряная турбина
+description: Просто генератор, использующий силу ветра для производства энергии
+health: 565
+size: 3
+hasPower: true
+powerProduction: 2
+requirements: [
+  lead/115
+  silicon/105
+  iridium/75
+  graphite/125
+]
+buildCostMultiplier: 1.9
+category: power
+research: solar-panel-large

@@ -1,0 +1,36 @@
+type: ArtilleryTurret
+name: Moray
+description: Turret Type: Shotgun. Shoots powerful buckshot at short range
+health: 1540
+size: 3
+reload: 60
+range: 90
+ammoUseEffect: shellEjectBig
+inaccuracy: 60
+rotatespeed: 12
+shots: 12
+recoil: 7
+shootSound: explosionbig
+ammo: {
+  graphite: {
+    speed: 7
+    type: BasicBulletType
+    shootSound: pewpew
+    lifeTime: 60
+    damage: 105
+    bulletWidth: 45
+    lifetime: 1000
+    bulletHeight: 55
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 3
+    bulletSprite: turrets-sphere-bullet
+  }
+}
+requirements: [
+  titanium/120
+  silicon/200
+  iron/250
+]
+category: turret
+research: ripple

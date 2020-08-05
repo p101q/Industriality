@@ -1,0 +1,7 @@
+name: Refrigerant
+description: Very effective as a coolant
+temperature: 0.05
+viscosity: 0.1
+effect: wet
+heatCapacity: 1.2
+color: 008080

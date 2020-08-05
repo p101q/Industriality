@@ -1,0 +1,42 @@
+name: Lambda
+description: Massive flying mech, firing homing ballistic missiles on long-range action. Very well armored.
+speed: 0.4
+boostSpeed: 1
+engineColor: 20b2aa
+flying: true
+health: 1575
+rotatespeed: 0.0002
+baseRotateSpeed: 0.0002
+engineSize: 11
+engineOffset: 20
+itemCapacity: 250
+drillPower: 10
+mineSpeed: 10
+hitsize: 35
+weapon: {
+	name: lambda-weapon
+	length: 11
+	shootSound: bang
+	shots: 4
+	reload: 65
+	alternate: false
+	range: 300
+	ignoreRotation: false
+	width: 20
+	recoil: 6
+	inaccuracy: 10
+	ejectEffect: reactorsmoke
+	ammoUseEffect: shellEjectBig
+	bullet: {
+	  type: MissileBulletType
+	  damage: 110
+      lifetime: 240
+      speed: 6
+      bulletWidth: 15
+      bulletHeight: 20
+      splashDamageRadius: 5
+      splashDamage: 35
+      homingPower: 30
+      homingRange: 75
+	}
+}

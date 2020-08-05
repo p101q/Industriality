@@ -1,0 +1,17 @@
+name: Advanced Repair Point
+description: An improved version of a conventional repair point. Strongly increased the range of the regenerating beam
+type: RepairPoint
+size: 3
+health: 715
+repairRadius: 250
+repairSpeed: 1.2
+powerUse: 5.5
+buildCostMultiplier: 1.6
+category: units
+requirements: [
+	iridium/100
+	graphite/120
+	silicon/120
+	plastanium/85
+	titanium/90
+]

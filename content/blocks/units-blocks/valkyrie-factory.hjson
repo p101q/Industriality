@@ -1,0 +1,27 @@
+name: Valkyrie Factory
+description: Produces medium-armored flying ships that are equipped with two energy guns
+health: 765
+type: UnitFactory
+unitType: valkyrie
+size: 3
+maxSpawn: 3
+produceTime: 3000
+consumes: {
+	power: 2.5
+	items: {
+	  items: [
+	    iridium/20
+	    titanium/35
+	    graphite/60
+	  ]
+	}
+}
+category: units
+research: ghoul-factory
+requirements: [
+  iridium/225
+  titanium/300
+  graphite/250
+  silicon/175
+]
+buildCostMultiplier: 1.4

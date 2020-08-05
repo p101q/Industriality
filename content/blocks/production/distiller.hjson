@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "Distiller"
+description: "Distills water"
+health: 325
+liquidCapacity: 50
+craftTime: 60
+outputLiquid: {
+  liquid: distilled-water
+  amount: 6
+}
+size: 2
+hasPower: true
+hasLiquids: true
+updateEffect: smeltsmoke
+consumes: {
+  power: 2
+  liquid: {
+    liquid: water
+    amount: 0.6
+  }
+}
+requirements: [
+  graphite/40
+  titanium/80
+  silicon/35
+  iron/80
+]
+category: crafting
+research: iron-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

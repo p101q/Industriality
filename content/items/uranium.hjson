@@ -1,0 +1,8 @@
+name: Uranium
+description: Just VERY redioactivity uranium
+hardness: 6
+cost: 2
+color: 6b8e23
+radioactivity: 2
+explosiveness: 0.3
+flammability: 0.35
