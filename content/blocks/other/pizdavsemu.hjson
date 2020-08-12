@@ -7,7 +7,7 @@ hasItems: true
 configurable: true
 baseExplosiveness: 99999999
 category: turret
-itemCapacity: 5000
+itemCapacity: 40000
 requirements: [
   titanium/10000,
   thorium/10000,
