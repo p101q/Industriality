@@ -38,7 +38,7 @@ consumes: {
 requirements: [
   titanium/200
   silicon/200
-  diamond/125
+  diamond-indriality/125
   iron/300
   plastanium/175
   iridium/250

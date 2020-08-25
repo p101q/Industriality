@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Diamond Compressor
 description: It Сompress the coal molecules so hard that it produces a diamond. Requires a lot of energy
 health: 740
-outputItem: diamond/1
+outputItem: diamond-indriality/1
 size: 3
 hasPower: true
 hasItems: true

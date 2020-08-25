@@ -20,7 +20,7 @@ requirements: [
   iron/350
   titanium/500
   iridium/375
-  diamond/175
+  diamond-indriality/175
   graphite/325
 ]
 buildCostMultiplier: 1.7

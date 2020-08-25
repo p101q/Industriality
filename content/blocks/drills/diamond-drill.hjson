@@ -17,7 +17,7 @@ consumes: {
 requirements: [
   iridium/10
   iron/25
-  diamond/20
+  diamond-indriality/20
 ]
 category: production
 research: laser-drill

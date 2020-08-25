@@ -48,7 +48,7 @@ requirements: [
   iron/320
   iridium/255
   surge-alloy/325
-  diamond/50
+  diamond-indriality/50
 ]
 category: turret
 research: meltdown

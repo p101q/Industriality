@@ -15,7 +15,7 @@ consumes: {
   items: {
     items: [
     iridium/4
-    diamond/2
+    diamond-indriality/2
     ]
   }
 }
@@ -25,7 +25,7 @@ requirements: [
   graphite/125
   iron/135
   iridium/75
-  diamond/100
+  diamond-indriality/100
 ]
 category: crafting
 research: diamond-compressor

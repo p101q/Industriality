@@ -1,0 +1,6 @@
+type: material
+name: Diamond
+description: "Great diamond! Better gift, But you have no one to gift it to(("
+hardness: 2
+cost: 3
+color: 00ffff

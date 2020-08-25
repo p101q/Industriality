@@ -26,7 +26,7 @@ requirements: [
   graphite/80
   iron/100
   iridium/25
-  diamond/25
+  diamond-indriality/25
 ]
 category: crafting
 research: diamond-compressor
