@@ -1,2 +1,0 @@
-# Industriality
-### Все работает
